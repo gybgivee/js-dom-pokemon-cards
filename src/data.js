@@ -1,4 +1,4 @@
-const data = [
+const data= [
   {
     name: "bulbasaur",
     sprites: {
@@ -8502,3 +8502,4 @@ const data = [
 ];
 
 window.data = data;
+
