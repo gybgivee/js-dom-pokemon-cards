@@ -80,3 +80,7 @@ ul {
   white-space: nowrap;
   text-overflow: ellipsis;
 }
+p{
+  font-size: 1.3rem;
+  text-align: center;
+}

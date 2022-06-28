@@ -18,7 +18,6 @@ for (let i = 0; i < data.length; i++) {
 
    const liEl = document.createElement('li');
    liEl.setAttribute('class', 'card');
-
    cardsEl.appendChild(liEl);
 
    const h2 = document.createElement('h2');
@@ -29,7 +28,6 @@ for (let i = 0; i < data.length; i++) {
    const img = document.createElement('img');
    const secondClass = 'card-toggle' + i;
    img.setAttribute('class', 'card--img ' + secondClass);
-
    img.style.width = '256';
    img.src = img1;
    liEl.appendChild(img);
@@ -79,7 +77,7 @@ for (let i = 0; i < data.length; i++) {
 
       return sum + ',' + el.version.name;
    }, " ");
-   console.log('allGames ', allGames);
+  
    const hiddenP = document.createElement('p');
    hiddenP.setAttribute('class', 'hidden');
    const startSecondP= firstPartOfGame.length+3;
@@ -122,8 +120,5 @@ for (let i = 0; i < data.length; i++) {
 
    })
 
-}
-function readMore() {
-   document.getElementById('readMore').style.display = 'block';
 }
 
