@@ -66,10 +66,17 @@ h2 {
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
 }
 
-ul{
+ul {
   list-style: none;
 }
-.card--text li{
+
+.card--text li {
   text-align: center;
   font-size: 1.5rem;
+}
+.hidden{
+  width: 30ch;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
